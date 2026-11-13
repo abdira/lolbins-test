@@ -1,0 +1,6 @@
+MSHTA DETECTION LAB
+
+Test ID: MSHTA-001
+Purpose: Simulate remote content retrieval.
+Expected: File creation in TEMP.
+Expected process: notepad.exe
