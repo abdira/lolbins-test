@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>HTA Test App</title>
+<HTA:APPLICATION 
+    ID="TestApp"
+    APPLICATIONNAME="HTA Test"
+    SCROLL="no"
+    SINGLEINSTANCE="yes"
+/>
+<script language="VBScript">
+    Sub ShowGreeting()
+        MsgBox "Success! mshta.exe executed this script.", 64, "HTA Demo"
+    End Sub
+</script>
+</head>
+<body style="font-family: Segoe UI, sans-serif; padding: 20px;">
+    <h2>Hello from MSHTA</h2>
+    <p>This window is rendered using the Windows MSHTML engine.</p>
+    <button onclick="ShowGreeting()">Test Script Execution</button>
+</body>
+</html>
